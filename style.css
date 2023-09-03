@@ -1,0 +1,269 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: #446a46;
+}
+/*AWAL DARI NAVBAR*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 8%;
+  padding-left: 8%;
+  background-color: #6d8b74;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.logo {
+  color: #182747;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span {
+  color: #182747;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: #182747;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: #ffffff;
+  transition: 0.5s;
+}
+/*AKHIR DARI NAVBAR*/
+
+/*AWAL DARI TENTANG*/
+.image {
+  width: 50%;
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  transform: rotateY("180deg");
+}
+.image img {
+  position: absolute;
+  bottom: 40;
+  right: 33%;
+  transform: translateX(20%);
+}
+.content {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+h4 {
+  color: white;
+  font-size: 30px;
+  line-spacing: 20px;
+}
+h1 {
+  color: white;
+  font-size: 65px;
+  margin: 10px 0 10px;
+}
+h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.tentang {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #354e36;
+}
+.tentang-saya {
+  width: 1130px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.tentang-text img {
+  height: auto;
+  width: 430px;
+  border-radius: 10px;
+}
+.tentang-text {
+  width: 700px;
+  margin-bottom: 40px;
+}
+.tentang-text h2 {
+  color: white;
+  font-size: 65px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+.tentang-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.tentang-text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+  text-align: justify;
+}
+/*AKHIR DARI TENTANG*/
+
+/*AWAL DARI PROJECT*/
+.project {
+  background-color: #446a46;
+  width: 100%;
+  padding: 100px 0;
+}
+.judul h2 {
+  color: rgb(255, 255, 255);
+  font-size: 75px;
+  width: 100%;
+  margin-bottom: 30px auto;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 500px;
+  width: 600px;
+  padding: 20px 35px;
+  background-color: 354e36;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid #182747;
+}
+.card i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0;
+  color: white;
+}
+.card h5 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.pra {
+  color: white;
+  font-size: 24px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+.foto img {
+  width: 350px;
+  height: 200px;
+}
+/*AKHIR DARI PROJECT*/
+
+/* Awal Footer */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+footer {
+  background-color: #354e36;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+  text-align: left;
+  margin: 0 20px;
+}
+
+.footer-left h3,
+.footer-center h3,
+.footer-right h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  color: #ccc;
+}
+
+/* Gaya tautan cepat */
+.footer-center ul {
+  list-style-type: none;
+}
+
+.footer-center ul li {
+  margin-bottom: 10px;
+}
+
+.footer-center ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+/* Gaya ikon sosial media */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* Gaya footer bagian bawah */
+.footer-bottom {
+  background-color: #314332;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Akhir Footer */
